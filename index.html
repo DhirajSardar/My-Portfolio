@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <!-- Navbar header section -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo">
+          <h2 class="logo-heading"><a href="#">Dhiraj Sardar</a></h2>
+        </div>
+        <div class="hamburger" id="hamburger">
+          <i class="fas fa-bars hamburger-icon"></i>
+          <i class="fas fa-times cross-icon"></i>
+        </div>
+        <div class="menu">
+          <ul class="menu-list">
+            <li class="menu-list-items">
+              <a class="links" href="#home"> Home </a>
+            </li>
+            <li class="menu-list-items">
+              <a class="links" href="#portfolio"> Portfolio </a>
+            </li>
+            <li class="menu-list-items">
+              <a class="links" href="#about"> About </a>
+            </li>
+            <li class="menu-list-items">
+              <a class="links" href="#services"> Skills</a>
+            </li>
+            <li class="menu-list-items">
+              <a class="links" href="#contact"> Contact Me </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main hero banner -->
+    <section id="home" class="hero">
+      <div class="intro">
+        <div class="headings">
+          <h3 class="greet-heading">Hello, I'm</h3>
+          <h1 class="my-heading">Dhiraj Sardar</h1>
+          <h4 class="sub-heading">
+            A Fresh Java Developer with a Passion for Innovative Software
+            Solutions
+          </h4>
+        </div>
+        <div class="intro-buttons">
+          <button class="btn common-btn">Hire Me</button>
+          <button class="btn ghost-btn">Get Resume</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="portfolio-heading">
+        <h1 class="my-heading text-center">Featured Projects</h1>
+      </div>
+      <div class="portfolio-content">
+        <!-- Example Java-related project -->
+        <div class="my-row">
+          <div class="my-col">
+            <div class="my-card port-card">
+              <div class="image">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRppHN7wblrbsKDqG5c3W1ps5kPAjIDGEG4Bg&s"
+                  alt="Java Project Image"
+                />
+              </div>
+              <h3 class="greet-heading">Java Application</h3>
+              <p class="small-para">
+                Description of a Java project, e.g., a banking application with
+                CRUD operations.
+              </p>
+            </div>
+          </div>
+          <div class="my-col">
+            <div class="my-card port-card">
+              <div class="image">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxtd3JdmmIs3zB02fMZTxWhRQRi9Pm0YX3OQ&s"
+                  alt="Java Project Image"
+                />
+              </div>
+              <h3 class="greet-heading">Web-Based Java App</h3>
+              <p class="small-para t">
+                Description of another Java project, e.g., a web-based inventory
+                management system.
+              </p>
+            </div>
+          </div>
+          <!-- Add more Java-related projects as needed -->
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="about-text">
+        <h1 class="my-heading">About Me</h1>
+        <p class="lead-para">
+          I am a recent graduate in Bachelor of Information Science with a focus
+          on Java programming. My academic journey has equipped me with a solid
+          foundation in software development principles, particularly in Java.
+          During my studies, I completed several projects that honed my skills
+          in Java SE and Java EE technologies.
+        </p>
+        <p>
+          I am enthusiastic about starting my professional career in Java
+          development and am eager to contribute to innovative software
+          solutions. My goal is to leverage my skills to build efficient and
+          scalable applications.
+        </p>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <div class="services-heading">
+        <h1 class="my-heading text-center">My Skills</h1>
+      </div>
+      <ul id="skills">
+        <li>
+          HTML
+          <div class="bar-container">
+            <span class="bar" data-bar='{ "color": "#19f" ,"delay" :0 }'>
+              <span class="pct">82%</span>
+            </span>
+          </div>
+        </li>
+        <li>
+          CSS
+          <div class="bar-container">
+            <span class="bar" data-bar='{ "color": "#b3ffb3", "delay": 600 }'>
+              <span class="pct">75%</span>
+            </span>
+          </div>
+        </li>
+        <li>
+          Java
+          <div class="bar-container">
+            <span class="bar" data-bar='{ "color": "#ffe6b3", "delay": 1200 }'>
+              <span class="pct">90%</span>
+            </span>
+          </div>
+        </li>
+        <li>
+          MySql
+          <div class="bar-container">
+            <span class="bar" data-bar='{ "color": "#ae8a33", "delay": 1800 }'>
+              <span class="pct">60%</span>
+            </span>
+          </div>
+        </li>
+
+        <li>
+          Javascript
+          <div class="bar-container">
+            <span class="bar" data-bar='{ "color": "#ffff66", "delay": 2400 }'>
+              <span class="pct">70%</span>
+            </span>
+          </div>
+        </li>
+        <li>
+          React
+          <div class="bar-container">
+            <span class="bar" data-bar='{ "color": "#ffcccc", "delay": 3000 }'>
+              <span class="pct">60%</span>
+            </span>
+          </div>
+        </li>
+        <li>
+          Hibernate
+          <div class="bar-container">
+            <span class="bar" data-bar='{ "color": "#c6ecd9", "delay": 3600 }'>
+              <span class="pct">60%</span>
+            </span>
+          </div>
+        </li>
+        <li>
+          Springboot
+          <div class="bar-container">
+            <span class="bar" data-bar='{ "color": "#b3b3ff", "delay": 4200}'>
+              <span class="pct">60%</span>
+            </span>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Contact me section -->
+    <section class="contact" id="contact">
+      <div class="contact-heading">
+        <h1 class="my-heading text-center">Contact Me</h1>
+      </div>
+      <div class="contact-content">
+        <div class="contact-form-container">
+          <h1 class="greet-heading">Get In Touch</h1>
+          <form class="contact-form" method="post">
+            <input
+              class="form-controls"
+              type="text"
+              name="name"
+              placeholder="Your Name"
+            />
+            <input
+              class="form-controls"
+              type="email"
+              name="email"
+              placeholder="Your Email"
+            />
+            <input
+              class="form-controls"
+              type="text"
+              name="phone"
+              placeholder="Your Phone"
+            />
+            <textarea
+              class="form-controls"
+              name="message"
+              placeholder="Write your message"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <input
+              class="form-btn btn common-btn"
+              type="submit"
+              value="Send Message"
+            />
+          </form>
+        </div>
+        <div class="contact-details">
+          <h1 class="greet-heading">My Contact Details</h1>
+          <div class="details">
+            <h5 class="contact-heading">EMAIL</h5>
+            <p class="contact-text">sardardhiraj706@gmail.com</p>
+          </div>
+          <div class="details">
+            <h5 class="contact-heading">PHONE</h5>
+            <p class="contact-text">+91 6362904194</p>
+          </div>
+          <div class="details">
+            <h5 class="contact-heading">ADDRESS</h5>
+            <p class="contact-text">Bengaluru</p>
+            <p>13th A Cross</p>
+            <p>Chikkasandra, Bengaluru</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer class="footer">
+      <div class="footer-content text-center">
+        <h4>
+          Copyright © 2024 Dhiraj Sardar. All rights reserved. | Designed and
+          developed by Dhiraj Sardar.
+        </h4>
+        <div class="social-links">
+          <div class="footer-menu">
+            <ul class="footer-menu-list">
+              <li class="footer-list-items">
+                <a
+                  class="footer-links"
+                  href="https://www.facebook.com/dhiraj.sardar.3701?mibextid=ZbWKwL"
+                >
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="footer-list-items">
+                <a class="footer-links" href="https://github.com/DhirajSardar">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              <li class="footer-list-items">
+                <a
+                  class="footer-links"
+                  href="https://x.com/DhirajSard62844?t=tU6QQ_q0SxV_xpUbR0X8Xg&s=08"
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li class="footer-list-items">
+                <a
+                  class="footer-links"
+                  href="https://www.linkedin.com/in/dhiraj-sardar-321574281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                >
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+      integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script src="script.js"></script>
+    <script src="skills.js"></script>
+    <script src="email.js"></script>
+  </body>
+</html>
